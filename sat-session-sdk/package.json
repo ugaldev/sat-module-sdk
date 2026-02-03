@@ -1,0 +1,20 @@
+{
+    "name": "sat-session-sdk",
+    "version": "1.0.0",
+    "description": "SDK for SAT Mexico Session Management",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "sat",
+        "mexico",
+        "session",
+        "login"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.7.2"
+    }
+}

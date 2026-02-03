@@ -1,0 +1,24 @@
+{
+    "name": "sat-module-sdk",
+    "version": "1.0.0",
+    "description": "SDK for SAT Mexico services and Invoices",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "sat",
+        "mexico",
+        "cfdi",
+        "facturas"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@nodecfdi/cfdi-to-json": "^1.2.3",
+        "@nodecfdi/cfdiutils-common": "^1.2.6",
+        "@nodecfdi/credentials": "^2.0.3",
+        "@xmldom/xmldom": "^0.8.11",
+        "axios": "^1.13.4"
+    }
+}
