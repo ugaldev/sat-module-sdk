@@ -211,12 +211,12 @@ Valida que los datos del receptor coincidan con el SAT antes de facturar.
 
 ```javascript
 const validacion = await sat.facturas.validarReceptor(token, {
-    rfc: 'ZAUC000207U22',
+    rfc: 'ZAUC00020xxxx',
     nombre: 'CARLOS IRAN ZAMORA UGALDE',
-    codigoPostal: '89490',
+    codigoPostal: '00000',
     regimenFiscal: '605',
     usoCFDI: 'S01'
-}, 'PERA660826CP2');
+}, 'PERA6608xxxxxx');
 
 if (validacion.data === 'OK') {
     console.log('✅ Receptor válido');
@@ -231,7 +231,7 @@ if (validacion.data === 'OK') {
 Elimina un cliente de la lista de favoritos del SAT.
 
 ```javascript
-await sat.facturas.eliminarReceptorFavorito(token, receptorData, 'PERA660826CP2');
+await sat.facturas.eliminarReceptorFavorito(token, receptorData, 'PERA660800000');
 ```
 
 ---
@@ -435,10 +435,11 @@ const password = process.env.SAT_PASSWORD;
 
 ## 📄 Licencia
 
-MIT License - Carlos Iván Zamora Ugalde
+MIT License - Carlos Irán Zamora Ugalde
 
 ---
 
 ## 🤝 Contribuciones
 
 Pull requests son bienvenidos. Para cambios mayores, abre un issue primero.
+
